@@ -11,8 +11,6 @@ interface WeatherData {
   icon: string
 }
 
-const API_KEY = 'demo' // Замените на ваш API ключ OpenWeatherMap
-
 function App() {
   const [city, setCity] = useState('')
   const [weather, setWeather] = useState<WeatherData | null>(null)
